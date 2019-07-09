@@ -1,3 +1,20 @@
+// -------- PSEUDOCODE --------
+//
+// 1. Apply button is clicked
+// 2. Change its label
+// 3. Validate the coupon
+//      a. Upper case the code
+//      b. Define what's valid/invalid
+//      c. Check code against those
+//      d. Write the toast message
+// 4. Fake a 1.5s delay
+// 5. Add success/failed class to toast
+// 6. Add success/failed class to voucher box
+// 7. Change button label back
+// 8. Start a 5s delay
+// 9. Remove all classes on toast
+// 10. Remove all classes on voucher box
+
 const form = document.querySelector('.form');
 const toast = document.querySelector('.toast');
 const close = document.querySelector('.toast__close');
